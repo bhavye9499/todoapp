@@ -2,9 +2,26 @@
 <html>
 <head>
     <title>Todo APP</title>
+    <link rel="stylesheet" href="/public/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/public/css/reset.css" type="text/css">
 </head>
 
 <body>
-Write your code here
+    <header class="app-header">
+        <h1 class="app-heading">TODO APP</h1>
+        <div class="add-task">
+            <input class="add-task-text" type="text" placeholder="Add Todo"></form>
+            <button class="add-task-btn">Add</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-tabs">
+            <li id="btn-0" class="tab-container tab-selected">ALL</li>
+            <li id="btn-1" class="tab-container">COMPLETED</li>
+            <li id="btn-2" class="tab-container">PENDING</li>
+        </ul>
+    </nav>
+
 </body>
 </html>
